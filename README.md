@@ -17,13 +17,13 @@
 
 ### **Chemistry**
 - **Description**:  Not yet public due to being active machine in the Hack The Box.
-- **OS**: 
+- **OS**: Linux
 - **Tools Used**: Nmap, ffuf, Bash
 - **Certificate of rooting**: https://www.hackthebox.com/achievement/machine/1605342/631
 
 ### **Sea**
 - **Description**:  Not yet public due to being active machine in the Hack The Box.
-- **OS**: 
+- **OS**: Linux
 - **Tools Used**: Nmap, ffuf, Bash
 - **Certificate of rooting**: https://www.hackthebox.com/achievement/machine/1605342/620
 
