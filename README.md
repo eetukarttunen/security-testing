@@ -3,6 +3,12 @@
 
 ## Rooted machines
 
+### **Administrator**
+- **Description**: Not yet public due to being active machine in the Hack The Box.
+- **OS**: Windows 
+- **Tools Used**: Nmap, Bash, crackmapexec, netexec, rpcclient, bloodhound, pywhisker, certipy, ftp, targetedGerberos, impacket, Evil-WinRM 
+- **Certificate of rooting**: https://www.hackthebox.com/achievement/machine/1605342/634
+
 ### **Sightless**
 - **Description**: Not yet public due to being active machine in the Hack The Box.
 - **OS**: Linux 
