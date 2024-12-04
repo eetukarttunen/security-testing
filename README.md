@@ -3,6 +3,12 @@
 
 ## Rooted machines
 
+### **Alert**
+- **Description**: Not yet public due to being active machine in the Hack The Box.
+- **OS**: Linux 
+- **Tools Used**: Bash, ffuf, Nmap, ssh 
+- **Certificate of rooting**: https://www.hackthebox.com/achievement/machine/1605342/636
+
 ### **Administrator**
 - **Description**: Not yet public due to being active machine in the Hack The Box.
 - **OS**: Windows 
