@@ -1,76 +1,34 @@
-## My research
+## My Research
+My Master's thesis (2024)
+
 [Eetu Karttunen - Web applications and their security testing](https://erepo.uef.fi/handle/123456789/32926?locale-attribute=en)
 
-## Rooted machines
+## Security accessment in practice
 
-### **Alert**
-- **Description**: Not yet public due to being active machine in the Hack The Box.
-- **OS**: Linux 
-- **Tools Used**: Bash, ffuf, Nmap, ssh 
-- **Certificate of rooting**: https://www.hackthebox.com/achievement/machine/1605342/636
+As a cybersecurity enthusiast, I actively participate in various Capture The Flag (CTF) competitions, vulnerability assessments, and penetration testing exercises. This repository highlights my practical skills, methodologies, and achievements in identifying and mitigating security vulnerabilities across different platforms.
 
-### **Administrator**
-- **Description**: Not yet public due to being active machine in the Hack The Box.
-- **OS**: Windows 
-- **Tools Used**: Nmap, Bash, crackmapexec, netexec, rpcclient, bloodhound, pywhisker, certipy, ftp, targetedGerberos, impacket, Evil-WinRM 
-- **Certificate of rooting**: https://www.hackthebox.com/achievement/machine/1605342/634
+**My hands-on experience includes**
 
-### **Sightless**
-- **Description**: Not yet public due to being active machine in the Hack The Box.
-- **OS**: Linux 
-- **Tools Used**: Nmap, Bash, Chisel
-- **Certificate of rooting**: https://www.hackthebox.com/achievement/machine/1605342/624
+- Web application penetration testing
+- Web application hardening & secure development
+- Privilege Escalation Techniques
+- Reverse Engineering
+- Cryptography Challenges
+- Cloud Security Assessments
 
-### **Instant**
-- **Description**:  Not yet public due to being active machine in the Hack The Box.
-- **OS**: Linux
-- **Tools Used**: Burp Suite, Curl, Nmap, ffuf, Bash
-- **Certificate of rooting**: https://www.hackthebox.com/achievement/machine/1605342/630
+The following is a list of machines I have successfully pwned on Hack The Box and other CTF (Capture the flag) white-hat hacking platforms, demonstrating my ability to identify vulnerabilities, escalate privileges, and capture the flags.
 
-### **Chemistry**
-- **Description**:  Not yet public due to being active machine in the Hack The Box.
-- **OS**: Linux
-- **Tools Used**: Nmap, ffuf, Bash
-- **Certificate of rooting**: https://www.hackthebox.com/achievement/machine/1605342/631
-
-### **Sea**
-- **Description**:  Not yet public due to being active machine in the Hack The Box.
-- **OS**: Linux
-- **Tools Used**: Nmap, ffuf, Bash
-- **Certificate of rooting**: https://www.hackthebox.com/achievement/machine/1605342/620
-
-### **Cicada**
-- **Description**:  Not yet public due to being active machine in the Hack The Box.
-- **OS**: Windows
-- **Tools Used**: Nmap, ffuf, Bash
-- **Certificate of rooting**: https://www.hackthebox.com/achievement/machine/1605342/627
-
-### **GreenHorn**
-- **Description**:  Not yet public due to being active machine in the Hack The Box.
-- **OS**: Linux
-- **Tools Used**: Nmap, ffuf, Bash
-- **Certificate of rooting**: https://www.hackthebox.com/achievement/machine/1605342/617
-
-### **Editorial**
-- **Description**:  Not yet public due to being active machine in the Hack The Box.
-- **OS**: Linux
-- **Tools Used**: Nmap, ffuf, Bash
-- **Certificate of rooting**: https://www.hackthebox.com/achievement/machine/1605342/608
-
-### **PermX**
-- **Description**:  The "PermX" is a Linux machine featuring a learning management system vulnerable to unrestricted file uploads via CVE-2023-4220. This vulnerability is leveraged to gain a foothold on the machine. Enumerating the machine reveals credentials that lead to SSH access. A `sudo` misconfiguration is then exploited to gain a `root` shell.
-- **OS**: Linux
-- **Tools Used**: Nmap, ffuf, Bash, curl
-- **Certificate of rooting**: https://www.hackthebox.com/achievement/machine/1605342/613
-
-### **BoardLight**
-- **Description**: The "Boardlight" is a Linux machine that features a `Dolibarr` CRM instance vulnerable to CVE-2023-30253. This vulnerability is leveraged to gain access as `www-data`. After enumerating and dumping the web configuration file contents, plaintext credentials lead to `SSH` access to the machine. Enumerating the system, a `SUID` binary related to `enlightenment` is identified which is vulnerable to privilege escalation via CVE-2022-37706and can be abused to leverage a root shell.
-- **OS**: Linux
-- **Tools Used**: Nmap, ffuf, Bash
-- **Certificate of rooting**: https://www.hackthebox.com/achievement/machine/1605342/603
-
-### **TwoMillion**
-- **Description**: The "TwoMillion" -machine features an old version of the HackTheBox platform that includes the old hackable invite code. After hacking the invite code an account can be created on the platform. The account can be used to enumerate various API endpoints, one of which can be used to elevate the user to an Administrator. With administrative access the user can perform a command injection in the admin VPN generation endpoint thus gaining a system shell. An .env file is found to contain database credentials and owed to password re-use the attackers can login as user admin on the box. The system kernel is found to be outdated and CVE-2023-0386 can be used to gain a root shell.
-- **OS**: Linux
-- **Tools Used**: Nmap, Netcat, Bash, Curl, de4js
-- **Certificate of rooting**: https://www.hackthebox.com/achievement/machine/1605342/547
+| **Machine**       | **IP/Platform** | **OS**       | **User Flag** | **Root Flag** | **Techniques**                                                                                                             | **Proof / Certificate of Rooting**                                                       |
+|-------------------|-----------------|--------------|---------------|---------------|----------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| **Alert**         | HTB             | Linux        | ✔️            | ✔️            | File upload, LFI, Reverse Shell, Port forwarding, PHP & Python scripting                                                                                                          | [Certificate](https://www.hackthebox.com/achievement/machine/1605342/636)        |
+| **Administrator** | HTB             | Windows      | ✔️            | ✔️            | Attack Path Management, LDAP vulnerability exploit, SQLi, Privilege Escalation, Windows Remote Management exploit                                                                                                  | [Certificate](https://www.hackthebox.com/achievement/machine/1605342/634)        |
+| **Sightless**     | HTB             | Linux        | ✔️            | ✔️            | Template injection, Privilege escalation, Port forwarding                                                                                                      | [Certificate](https://www.hackthebox.com/achievement/machine/1605342/624)        |
+| **Instant**       | HTB             | Linux        | ✔️            | ✔️            | Web Shell, SUID Exploit                                                                                                     | [Certificate](https://www.hackthebox.com/achievement/machine/1605342/630)        |
+| **Chemistry**     | HTB             | Linux        | ✔️            | ✔️            | Arbitrary code execution, File upload, Samba Exploit                                                                                                              | [Certificate](https://www.hackthebox.com/achievement/machine/1605342/631)        |
+| **Sea**           | HTB             | Linux        | ✔️            | ✔️            | Bash & Python scripting, Directory enumeration, LFI, Reverse Shell, XSS vulnerability                                                                                                         | [Certificate](https://www.hackthebox.com/achievement/machine/1605342/620)        |
+| **Cicada**        | HTB             | Windows      | ✔️            | ✔️            | Directory Traversal, Hash cracking, SMB exploit, Privilege escalation, secretsdump exploit                                                                                                         | [Certificate](https://www.hackthebox.com/achievement/machine/1605342/627)        |
+| **GreenHorn**     | HTB             | Linux        | ✔️            | ✔️            | CMS vulnerability exploit, Web Shell, Privilege Escalation                                                                                             | [Certificate](https://www.hackthebox.com/achievement/machine/1605342/617)        |
+| **Editorial**     | HTB             | Linux        | ✔️            | ✔️            | Directory Traversal & brute force, Reverse Shell                                                                                          | [Certificate](https://www.hackthebox.com/achievement/machine/1605342/608)        |
+| **PermX**         | HTB             | Linux        | ✔️            | ✔️            | SSH Access, sudo Misconfiguration, Privilege Escalation                                                       | [Certificate](https://www.hackthebox.com/achievement/machine/1605342/613)        |
+| **BoardLight**    | HTB             | Linux        | ✔️            | ✔️            | SUID Exploit, Privilege Escalation                                                                          | [Certificate](https://www.hackthebox.com/achievement/machine/1605342/603)        |
+| **TwoMillion**    | HTB             | Linux        | ✔️            | ✔️            | Old HTB Platform Exploit, Command Injection, Kernel Exploit                                                   | [Certificate](https://www.hackthebox.com/achievement/machine/1605342/547)        |
