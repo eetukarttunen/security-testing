@@ -11,12 +11,12 @@ I actively participate in various Capture The Flag (CTF) competitions, vulnerabi
 
 - Web application penetration testing
 - Web application hardening & secure development
-- Privilege Escalation Techniques
-- Reverse Engineering
-- Cryptography Challenges
-- Cloud Security Assessments
+- Privilege escalation
+- Reverse engineering
+- Cryptography
+- Cloud security assessments
 
-The following is a list of machines I have successfully pwned on Hack The Box and other CTF (Capture The Flag) white-hat hacking platforms, demonstrating my ability to identify vulnerabilities, escalate privileges, and capture the flags.
+The following is a list of machines I have successfully hacked on Hack The Box and other CTF (Capture The Flag) white-hat hacking platforms, demonstrating my ability to identify vulnerabilities, escalate privileges, and capture the flags.
 
 | **Machine**       | **IP/Platform** | **OS**       | **User Flag** | **Root Flag** | **Techniques**                                                                                                             | **Proof / Certificate of Rooting**                                                       |
 |-------------------|-----------------|--------------|---------------|---------------|----------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
